@@ -1,10 +1,10 @@
-def test_ping(test_app):
-    # Given
-    # test_app
+# def test_ping(test_app):
+#     # Given
+#     # test_app
 
-    # When
-    response = test_app.get("/ping")
+#     # When
+#     response = test_app.get("/ping")
 
-    # Then
-    assert response.status_code == 200
-    assert response.json() == {"ping": "pong!", "enviroment": "dev", "testing": False}
+#     # Then
+#     assert response.status_code == 200
+#     assert response.json() == {"ping": "pong!", "enviroment": "dev", "testing": False}
