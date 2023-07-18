@@ -17,3 +17,20 @@ web_dev=# \dt
 (2 rows)
 
 web_dev=# \q
+
+# 修改docker镜像源
+{
+  "builder": {
+    "gc": {
+      "defaultKeepStorage": "20GB",
+      "enabled": true
+    }
+  },
+  "experimental": false,
+  "features": {
+    "buildkit": true
+  },
+  "registry-mirrors": [
+    "https://reg-mirror.qiniu.com/"
+  ]
+}
