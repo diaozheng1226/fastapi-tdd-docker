@@ -13,3 +13,4 @@ flake8==4.0.1
 black==23.7.0
 isort==5.10.1
 newspaper3k==0.2.8
+nltk==3.8.1
