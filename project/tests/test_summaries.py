@@ -32,7 +32,7 @@ def test_read_summary(test_app_with_db):
 
 def test_read_all_summaries(test_app_with_db):
     response = test_app_with_db.post(
-        "/summaries/", data=json.dumps({"url": "http://foo.bar"})
+        "/summaries/", data=json.dumps({"url": "http://testdriven.io"})
     )
     summary_id = response.json()["id"]
 
